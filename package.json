@@ -3,10 +3,10 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://Ztrah3.github.io/To-Do-List.github.io",
+    "homepage": ".",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
+        "deploy": "npm run build",
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview"
